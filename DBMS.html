@@ -1,0 +1,364 @@
+<html>
+<head><Title> DBMS Webpage of the contents</title></head>
+<H1><center> Data Base Management system(DBMS) </center></H1>
+<h3> <marquee  bgcolor="green" direction="left" loop="" height="30px"> The information below is the NEB approved content for the DBMS lesson for Grade 12</marquee></h3>
+
+<h2> Data types </h2>
+
+Different programming languages support different data types. These types enable the programs written in those languages to perform operations with, manipulate and use different types of data to produce appropriate, error-free output.
+<br>
+While the actual names of the data types might differ from one language to another, these data types are common to all languages:<br>
+<br>
+1.Integer (int). Whole numbers (numbers without fractions).<br>
+Examples: 901, -43<br><br>
+2.Floating point (float or real). Fractional or decimal numbers.<br><br>
+Examples: 433.98, 1.23E2<br><br>
+3.Character (char). Single letters, numbers or special characters (e.g., punctuation marks).<br><br>
+Examples: A, !, &<br><br>
+4.String (str). A sequence or combination of letters, numbers or special characters.
+<br><br>Examples: InformaTechTarget, Hi there!
+<br><br>5.Boolean (bool). True or false values that clarify a conditional statement.
+<br><br>Example: bool InformaTechTargetisGreat = true
+<br><br>6.Date. A calendar date in a specific format such as YYYY-MM-DD.
+<br><br>Example: 2025-04-01
+<br><br>7.Time. Time in a specific format such as hh:mm:ss.
+<br><br>Example: 18:40:04
+<br><br>8.Nothing or void. A code with no value.
+<br><br>9.Array. A list with multiple elements of the same type and mentioned in a specific order; the length of an array refers to the total number of elements in it.
+   <br><br>Example: (0, 1, 2, 3, 4, 5)
+
+
+<hr>
+
+<u><B>Information</B></U>: Information are the processed form of data. Information gives a meaning full result after data are interpreted.
+
+Ram 17 year old and lives in Pokhara 18.
+
+As we know, very organization from the prehistoric time deals with data and information. Data are very necessary for organization to operate. In previous time, data used to be collected randomly and were not organized in any particular order which leads to following drawbacks.
+<ol type=1">
+<li>Some information was stored in more than one file. (Data redundancy).</li>
+<li>Difficult to present data from the user’s view.</li>
+<li>Data security was one of the major problem.</li>
+<li>Data processing and manipulation were difficult.</li>
+<li>Data retrieval were very slow.</li></OL>
+Hence, concept of database arise in order to overcome the above drawbacks or limitations. Database is collection of interrelated data or entities stored in tabular form. It gives very useful information for an organization during data manipulation and decision making. It provides a base for foundation for managing large volume of data in a well organized manner. Simply database is a systematic and organized form of data so that user can retrieve or access data whenever required within no time. For eg, telephone directory, dictionary, marks ledger, customer records etc.
+
+<B><U>Limitations of flat file system:</u></b>
+<p>
+<ol type=1">
+<li>Data security system is one of the major problem in flat file system.</LI>
+<li>Data Sharing was almost impossible or difficult.</LI>
+<li>Some record was stored in more than one file. (Data redundancy)</LI>
+<li>Difficult to represent data through user prospective.</LI>
+<li>It is difficult for processing complex queries.</LI><hr><ol></p>
+
+<H2>Database</h2>
+<p>A database is an organized collection of data that is electronically stored and accessed. Databases can store structured, semi-structured, or unstructured data, such as text, images, videos, and files, making them indispensable for modern applications. They are managed using Database Management Systems (DBMS), which are software tools that enable users to create, retrieve, update, and manage data efficiently.</p> 
+
+Types of database:
+<ul>
+<li>Hierarchical databases</li>
+<li>Network databases</li>
+<li>Object-oriented databases</li>
+<li>Relational databases</li>
+<li>Cloud Database</li>
+<li>Centralized Database</li>
+<li>Operational Database</li>
+<li>NoSQL databases</li></ul>
+
+<h2>DBMS (Database Management System)</h2>
+
+<p>DBMS is a computerized record keeping system. It is a software that defines, manipulates and  manage the database. It allows to access the file, update the record and retrieve data as requested. In other word, DBMS is defined as the collection of interrelated  data and set of programs to access there data. The collection of data is usually a database which contains the information about any particular organization. The primary goal of DBMS is to provide an effective and efficient environment for both data retrieval and  storing data in database. For example MS Access, Oracle, MY SQL, Fox-Pro, D-base etc.
+</p>
+
+<h3>Advantages of DBMS</h3>:
+
+1) Sharing data: Using DBMS, data stored in database can be shared among multiple users or computer. For example, branches of bank share data from database.
+<br><BR>
+2) Reduce data redundancy: Data redundancy refer to duplication or repetition of same data over and over. DBMS reduces such type of unnecessary repetition of data.
+<br><BR>
+
+3) Data backup and recovery: Using DBMS, we can easily create spare copy of original files and documents that can be later used in case of accidental or intentional loss and damages.
+<br><BR>
+
+4) Data security: Using DBMS we can restrict use of database to the unauthorized person. It helps to ensure date security.
+<br><BR>
+
+5) Multiple user interface: DBMS facilitates sharing of data which means same data can be accessed from multiple device and location. Hence, user can experience multiple interface to access same set of data.
+<br><BR>
+<h2> Database Models:</h2><br>
+<h3>Hierarchical database model</h3><br>
+
+It is one of the oldest type of database model. In this model data are represented in the forms of record, each record has multiple field or attributes. All records are arranged in database as tree like structure. The relationship between the records is called parent child relationship in which one child record relates to only a single parent i.e child posses property only property of a single parent. Here child are restricted to use the property of a parent to whom it doesn't belong.
+
+<b><u>Advantages:</u></b><br>
+
+
+1.It is the simplest and the easiest model.<br>
+2.It supports one to one or one to many relationship.<br>
+3.Searching is easier and faster if parent is known.<br>
+<br>
+
+<b><u>Disadvantages:</u></b>
+<br>
+
+1.It is an old fashion and outdated database model.<br>
+2.It doesn’t support many to one relationship.<br>
+3.It doesn’t reduce data redundancy because some data are written over different places.<br><br>
+<h3>Network database model</h3>
+<br>
+This network model replace hierarchical model due to some limitation on the model. Suppose an employee relates to two different department then hierarchical model cannot be able to arrange record in proper place. So, network database model was emerged to arrange non-hierarchical database. The structure of database is more like graph rather than tree structure. A network model consists of collection of record which are interrelated to each other with the help of relationship. Each records have multiple fields and each field has only one data value. In this type of model a parent may have multiple child, as well as child can have multiple parent.
+<br>
+<b><u>Advantages:</u></b><br>
+
+1.It accepts many to many relationships. So, It is more flexible .<br>
+2.It reduces data redundancy.<br>
+3.This network mode is simple and easy to design.<br>
+4.Searching is faster due to use of multi-directional pointer.<br><br>
+<b><u>Disadvantages:</u></b>
+<br>
+
+1.Needs long program to handle the relationship.<br>
+2.Lack of structural independence.<br>
+3. Less security<br><br>
+<h3>Relational database model</h3>
+<br>
+In relational database model, the data are organized into tables which contains multiple row and columns. These tables are called relations. A row in a table represents a relationship among a set of values. Since, a table is collection of such relationship. It is generally referred to the mathematical term relations from which the relational database model derives its name. It is also known as RDBMS.
+
+Note: The database system which stores and display data in tabular format of rows and column like spreadsheet is known as RDBMS. It is the most practical DBMS those days. For example, MS-Access, MY SQL, Oracle etc.
+<br>
+
+<b><u>Advantages:</u></b><br>
+
+
+1.There is less data redundancy.<br>
+2.Breaking of complex database into simple is very much easier.<br>
+3 Database processing is faster than other model.<br><br>
+
+<b><u>Disadvantages:</u></b>
+<br>
+
+1.Establishing more relationships complex.<br>
+2.It requires powerful computer and data storage device.<br>
+
+
+
+
+<h2>Structure query Language (SQL)</h2><br>
+
+SQL stands for Structured Query Language. It is an international standard data base query language for accessing and managing data in the database. SQL was introduced and developed by IBM in early 1970’s. It was able to control relational database. SQL is not a complete programming language. It is only used for communicating with database. SQL has statement for data definition (DDL), data manipulation (DML) and data control (DCL). A query is a request to a DBMS for the retrieval, modification, insertion and deletion of the data from database.
+<br>
+SQL is made of three sub languages:
+ DDL, DML and DCL
+
+<h3><u>1) DDL (Data Definition Language):</h3></u> DDL is used by the database designer and programmers to specify the content and the structure of table. It is used to define the physical characteristics of record. It includes commands that manipulate the structure of object such as tables: For eg, to create table.<br>
+
+Syntax:
+<br>
+CREATE TABLE table_name (field_name1 data_type1  field_name2 data_type2 ………);
+<br>
+CREATE TABLE Student (SN Number Fname text);
+<br>
+<h3><u>2) DML (Data Manipulation Language):</u></h3> DML is related with manipulation of records such as retrieval, sorting, display and deletion of records or data. It helps user to use query and display report of the table. It provide technique for processing the database. It includes commands like insert, delete, select, and update to manipulate the information stored in the database.
+<br>
+Syntax:
+<br>
+INSERT INTO table_name VALUES (list of values);
+<br>
+INSERT INTO student VALUES (1 RAM);
+<br>
+3) DCL (Data Control Language): All provides additional feature for security of table and database. It includes commands for controlling data and access to the database. Some of the example of this command are grant, commit, etc
+<br>
+Entity Relationship Database model (ER Model)
+<br>
+The entity relationship database model (ER diagram) is based on the perception of a real world that contains a collection of basic object called entities and relationship among these objects. The ER diagram is an overall logical structure of database that can be expressed graphically. It was developed to facilitates database design. The major objectives of ER diagram is to show relationship among different entities. It has following components.
+<br>
+1) Entity: The distinguishable object of this real world is known as entities. It has a set of properties which uniquely identifies an entity. For eg, if student is an entity then his/her name may be property. It is denoted by rectangle.
+<br>
+2) Attributes: Attributes are the properties possessed by an entity. They are represented by ellipse or oval sign. For eg, if student is an entity then its attribute can be registration number, name, roll no, class, address, etc.
+<br>
+3) Link: The flow of information is indicated by the link in ER diagram. It is simply denoted by a line. It is a connection of entity, attributes and relationships.
+<br>
+4) Relationships: A relationship is a association among several entities. It is represented by diamond. For eg, if teachers and students are two entities the association can be derived as teacher teachers students. It shows meaningful dependencies between several entities. There are 3 types of relationships. One to one. One to many, Many to many.
+<br>
+<h3>DBA (Database Administrator)</h3>
+<br>
+DBA is the most responsible person in an organization with sound knowledge of DBMS. He/she is the overall administrator of the program. He/she has the maximum amount of privileges for accessing database and defining the role of the employee which use the system. The main goal of DBA is to keep the database server up to date, secure and provide information to the user on demand.
+
+<u><b>Qualities of good DBA:</b></u>
+
+1.He/she should have sound and complete knowledge about DBMS and its operation.<br>
+2.He/she should be familiar with several DBMS packages such as MS Access, MY SQL, Oracle etc<br>
+3.He/she should have depth knowledge about the OS in which database server is running.<br>
+4.He/she should have good understanding of network architecture.<br>
+5.He/she should hove good database designing skill.<br><br>
+<u><b>Responsibilities:</b></u><br>
+
+1.DBA has responsibility to install, monitor, and upgrade database server.
+2.He/she should has responsibility to maintain database security by creating backup for recovery.
+3.He/she has responsibility to conduct training on the uses of database.
+4.DBA defines user privilege, relationships and manages form, reports in database.
+<u><h2>Normalization (v.imp)</h2></u>
+
+The process of breaking down or decomposing as complex relation into simple relation. It reduces redundancy (unnecessary repetition of data) using principle of non-loss decomposition in which table are reduce to smaller tables without loss of information.
+<br>
+Normalization is the database design process in which complex database table is broken down into simple separate tables. It makes data model more flexible and easier to  maintain.
+
+EF Codd has introduced few rules for normalizing the database in 1970 and these rules are known as normal forms. This process minimizes and controls the duplication of data in a database and also provides a rapid search for data from database.
+
+  <h1>DBMS Normalization: 1NF, 2NF, 3NF</h1>
+
+ 
+
+  <h2>Goals of Normalization:</h2>
+  <ul>
+    <li>Eliminate redundant data</li>
+    <li>Ensure data dependencies make sense</li>
+    <li>Divide large tables into smaller, well-structured tables</li>
+    <li>Improve data integrity and efficiency</li>
+  </ul>
+
+  <h2>Unnormalized Table (UNF)</h2>
+  <table border="1">
+    <tr>
+      <th>StudentID</th>
+      <th>Name</th>
+      <th>Courses</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+      <td>Math, English</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mary</td>
+      <td>Science</td>
+    </tr>
+  </table>
+  <p><strong>Problem:</strong> Courses are multi-valued (not atomic).</p>
+
+  <h2>First Normal Form (1NF)</h2>
+  <p><strong>Definition:</strong> A relation is in 1NF if all attributes contain only atomic (indivisible) values, and each record is unique.</p>
+  <table border="1">
+    <tr>
+      <th>StudentID</th>
+      <th>Name</th>
+      <th>Course</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+      <td>Math</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mary</td>
+      <td>Science</td>
+    </tr>
+  </table>
+  <p><strong>Fix:</strong> Multi-valued attribute split into separate rows for atomicity.</p>
+
+  <h2>Second Normal Form (2NF)</h2>
+  <p><strong>Definition:</strong> A relation is in 2NF if it is in 1NF and all non-key attributes are fully functionally dependent on the entire primary key.</p>
+  <p><em>(Applies to tables with composite keys)</em></p>
+
+  <h3>Student Table</h3>
+  <table border="1">
+    <tr>
+      <th>StudentID</th>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>John</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mary</td>
+    </tr>
+  </table>
+
+  <h3>Enrollment Table</h3>
+  <table border="1">
+    <tr>
+      <th>StudentID</th>
+      <th>Course</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Math</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>English</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Science</td>
+    </tr>
+  </table>
+  <p><strong>Fix:</strong> Name (which only depends on StudentID) separated into its own table.</p>
+
+  <h2>Third Normal Form (3NF)</h2>
+  <p><strong>Definition:</strong> A relation is in 3NF if it is in 2NF and there is no transitive dependency (i.e., non-key attributes do not depend on other non-key attributes).</p>
+
+  <h3>Course Table</h3>
+  <table border="1">
+    <tr>
+      <th>Course</th>
+      <th>Instructor</th>
+    </tr>
+    <tr>
+      <td>Math</td>
+      <td>Mr. A</td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td>Ms. B</td>
+    </tr>
+    <tr>
+      <td>Science</td>
+      <td>Mr. C</td>
+    </tr>
+  </table>
+
+  <h3>Instructor Table</h3>
+  <table border="1">
+    <tr>
+      <th>Instructor</th>
+      <th>Phone</th>
+    </tr>
+    <tr>
+      <td>Mr. A</td>
+      <td>12345</td>
+    </tr>
+    <tr>
+      <td>Ms. B</td>
+      <td>67890</td>
+    </tr>
+    <tr>
+      <td>Mr. C</td>
+      <td>54321</td>
+    </tr>
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
